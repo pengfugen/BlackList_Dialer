@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recent_call_logs_title"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/background_dialer_white" />
+
+    <Button
+        android:id="@+id/add_call_log"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:text="@string/recent_call_log_action_add"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+</RelativeLayout>
